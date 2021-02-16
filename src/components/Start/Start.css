@@ -1,0 +1,97 @@
+
+table tr{
+  border-collapse: collapse;
+}
+tbody{
+  display: block;
+  height: 70vh;
+  overflow-y: hidden;
+}
+thead,tbody tr{
+  display: table;
+  width: 100%;
+  table-layout:fixed;
+}
+.start{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.select{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 40px;
+  margin-bottom: 0;
+  margin-top: 0;
+  flex:.80;
+  height: 100vh;
+}
+.select__header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 0;
+}
+.select h1{
+  font-size: 1.2rem;
+  color:  rgb(120, 11, 216);
+}
+.select__tableHead,.select__tableBody {
+  width: 100%;
+  text-align: center;
+  height: 70vh;
+  overflow: hidden;
+}
+.select__tableHead{
+  height: 76px;
+  border-spacing: 0;
+}
+.select__tableBody
+{
+  margin-top: -16px;
+  border-collapse: collapse;
+}
+.select__tableBody tr{
+  border-bottom: 1px solid rgb(221, 221, 221);
+}
+.select__table__header{
+  width: 100%;
+}
+.select__table__header th
+{ font-size: .8rem;
+  padding: 10px;
+  background: rgb(250, 247, 247);
+}
+.head__select {
+  padding: 6px;
+}
+.head__playerName {
+ text-align: center;
+}
+.head__image{
+  padding: 6px;
+}
+.head__wins ,.head__bet,.head__price{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.head__wins img,.head__bet img,.head__price img{
+  margin-right: 6px;
+}
+.table__row{
+  background-color: aliceblue;
+}
+.table__row td{
+  padding: 10px;
+}
+.table__rowImage {
+  display: flex;
+  justify-content: center;
+}
+.pagination{
+  float: right;
+  margin-top: .5rem;
+}

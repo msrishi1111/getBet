@@ -1,0 +1,69 @@
+.betGround{
+  background: rgb(245, 245, 245);
+  height: 100%;
+  width: 100%;
+  padding: 1rem;
+}
+.firstFiveCards,.lastFourCards{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.betLoading{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0;
+  margin-bottom: 36px;
+}
+.betLoading__image{
+  display: flex;
+  width: 80px;
+  height: 80px;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.betResult{
+  display: flex;
+  width: 80px;
+  height: 80px;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 50%;
+  background:  rgb(105, 16, 182);
+  color: white;
+  font-size: 4rem;
+  font-weight: bold;
+}
+.betResult p{
+  margin: 0;
+}
+.backButton{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 2rem;
+  margin-left: 1rem;
+}
+.backButton button{
+  background:   rgb(105, 16, 182);
+  color: white;
+  outline: none;
+  border-radius: 6px;
+  padding: .5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: 1rem;
+  border: none;
+  letter-spacing: 1px;
+  font-family:'Times New Roman', Times, serif;
+}
+.backButton button:hover,.backButton button:active{
+  background:  rgb(120, 11, 216);
+  color: white;
+  cursor: pointer;
+}

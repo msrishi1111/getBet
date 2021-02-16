@@ -1,0 +1,83 @@
+.card{
+  background: white;
+  display: flex;
+  align-items: flex-start;
+  width: 180px;
+  height: 196px;
+  border-radius: .8rem;
+  border: 1px solid red;
+  box-shadow: 4px 4px 4px 4px rgba(207, 207, 207,.3);
+  flex-direction: column;
+  margin: 20px;
+  margin-top: 0;
+  position: relative;
+}
+.card__winner{
+  transform: scale(1.1);
+  border: 1px solid green;
+}
+.card__intro{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   margin-top: 0;
+   padding: 10px;
+}
+.card__intro p{
+  margin: 0;
+}
+.card__detail{
+  margin: .8rem;
+}
+.card__level{
+  color: grey;
+  font-size: .8rem;
+  padding-top: 2px;
+}
+.card__row{
+  display: flex;
+  margin-left: 10px;
+}
+.card__row p{
+  margin: 0;
+}
+.card__price , .card__bet ,.card__win{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card__price{
+  margin-right: 10px;
+}
+.card__price p, .card__bet p,.card__win p{
+  padding: 4px;
+}
+.card__win{
+  margin-left: 10px;
+}
+.card__tag{
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  background-color: rgb(204, 0, 0);
+  margin-bottom: -1px;
+  border-radius: 10px 10px 0px 0px;
+}
+.card__winner .card__tag{
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  background-color:green;
+  margin-bottom: -1px;
+  border-radius: 10px 10px 0px 0px;
+}
+.card__tag p{
+  margin: 0;
+  font-size: .7rem;
+  color: white;
+  padding: 2px;
+}
+.card:hover { 
+  transform: scale(1.1);
+  transition: all .4s ease-in-out; }
+  

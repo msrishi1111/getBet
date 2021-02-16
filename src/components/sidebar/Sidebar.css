@@ -1,0 +1,107 @@
+.sidebar{
+  flex: .23;
+  padding-left: 1rem;
+  padding-top: 3px;
+  background: rgb(250, 247, 247);
+  border-right: 1px solid lightgray;
+  height: 100vh;
+  position: relative;
+  min-width: 272px;
+  display: flex;
+  flex-direction: column;
+}
+.sidebar_logo{
+  width: 100%;
+  text-align: center;
+}
+.sidebar_logo img{
+  width: 35%;
+}
+.sidebar__heading{
+  font-size: 1rem;
+  color: grey;
+}
+.sidebar__players{
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  flex-grow: 1;
+}
+.sidebar__players::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: rgba(105, 16, 182,0.8);
+}
+.sidebar__players::-webkit-scrollbar {
+  width: 8px;
+}
+.sidebar__player{
+  display: flex;
+  justify-content: center;
+  align-items: top;
+}
+.player__image{
+  padding: .5rem;
+}
+.player__details{
+  display: flex;
+  flex-direction: column;
+  padding: .5rem;
+  margin-right: 2rem;
+}
+.player__winLoss{
+  display: flex;
+}
+.player__bet,.player__win{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.player__win{
+  margin-right: .5rem;
+}
+.player__bet p,.player__win p{
+  margin: 0;
+  padding: 6px;
+}
+.player__details p{
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 80px;
+  text-overflow: ellipsis;
+  margin: 0;
+}
+.player__price{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-grow: 1;
+}
+.player__price p{
+  padding-left: 0.5rem;
+}
+.start_button button{
+  background:   rgb(105, 16, 182);
+  color: white;
+  outline: none;
+  border-radius: 6px;
+  padding: .5rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  font-size: 1rem;
+  border: none;
+  letter-spacing: 1px;
+  font-family:'Times New Roman', Times, serif;
+}
+.start_button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: calc(100% - 16px);
+  margin: 1rem 0;
+}
+
+.start_button button:hover,.start_button button:active{
+  background:  rgb(120, 11, 216);
+  color: white;
+  cursor: pointer;
+}
